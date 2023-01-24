@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/calc2.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="title" id="title">
+            <h1>Calculator</h1>
+        </div>
+        <div id="calculate">
+        <div class="box"id="result">
+           <p>0000</p>
+        </div>
+        <div class="container-content">
+        <div class="input">
+            <label>First Number</label>
+            <input type="number" id="fn" placeholder="put your first number">
+            <span id="num1error">*required to fill out</span>
+        </div>
+        <div class="input">
+            <label>Second Number</label>
+            <input type="number" id="sn" placeholder="put your second number">
+            <span id="num2error">*required to fill out</span>
+        </div>
+        <div class="input">
+            <label>Operators</label>
+            <select class="input" id="op">
+              <option value="">-----------------------------</option>
+              <option value="+">+</option>
+              <option value="-">-</option>
+              <option value="*">*</option>
+              <option value="/">/</option>
+              <option value="%">%</option>
+            </select>
+            <span id="operatorerror">*required to fill out</span>
+            
+        </div>
+        <br>
+        <br>
+        <div class="btn">
+        <input type="submit" value="Submit" id="submit">
+       
+        </div>
+        </div>
+        </div>
+    </div>
+    <script src="/calc2.js"></script>
+</body>
+</html>

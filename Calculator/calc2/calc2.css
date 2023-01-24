@@ -1,0 +1,95 @@
+.container{
+    background-color: rgb(203, 156, 247);
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 40px violet,0 0 40px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(253, 162, 253);
+    margin: 100px;
+}
+
+.title h1{
+    align-items: center;
+    margin: 10px;
+    padding: 75px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.container-content{
+    padding: 20px;
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+}
+.input label{
+    display: flex;
+    padding: 10px;
+    margin: 0px;
+}
+
+.input input {
+    /* box-shadow: 0 0 20px violet,0 0 20px; */
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.input select {
+    /* box-shadow: 0 0 40px violet,0 0 40px; */
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    padding-right: 22px;
+
+}
+
+.input input:hover, .input select:hover, .btn input:hover{
+    display: inline-block;
+    color : darkmagenta;
+    box-shadow: 0 0 20px violet,0 0 20px;
+}
+
+.btn input{
+    border-radius: 10px;
+    padding:7px;
+    padding-inline-start: 10px;
+    padding-inline-end: 10px ;
+    margin : 5px;
+    margin-bottom: 10px;
+    color: rgb(122, 20, 135);
+    background-color: rgb(220, 186, 243);
+    border: 1px solid rgba(67, 12, 119, 0.715);
+    
+}
+
+option{
+    color:rgb(5, 5, 21);
+    background-color: rgb(194, 141, 229);
+    box-shadow: 0 0 20px violet,0 0 20px;
+    border: 1px solid rgba(67, 12, 119, 0.715);
+
+}
+
+
+
+.box {
+    background-color: rgb(189, 128, 246);
+    padding : 15px;
+     font-size: 1.5em;
+     display: flex;
+     width: 300px;
+     height:50px;
+    justify-content: flex-end;
+    
+    border: 1px solid violet;
+}
+
+span{
+    display: block;
+    padding: 4px;
+    margin-left: 10px;
+    color: red;
+}
